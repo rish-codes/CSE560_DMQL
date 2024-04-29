@@ -1,0 +1,10 @@
+\copy circuits from '/Users/rishabh/Development/DMQL/Project/f1_data/circuits.csv' delimiter ',' csv header;
+\copy drivers from '/Users/rishabh/Development/DMQL/Project/f1_data/drivers.csv' delimiter ',' csv header;
+\copy races from '/Users/rishabh/Development/DMQL/Project/f1_data/races.csv' delimiter ',' csv header;
+\copy constructors from '/Users/rishabh/Development/DMQL/Project/f1_data/constructors.csv' delimiter ',' csv header;
+\copy constructor_results from '/Users/rishabh/Development/DMQL/Project/f1_data/constructor_results.csv' delimiter ',' csv header;
+\copy constructor_standings from '/Users/rishabh/Development/DMQL/Project/f1_data/constructor_standings.csv' delimiter ',' csv header;
+\copy status from '/Users/rishabh/Development/DMQL/Project/f1_data/status.csv' delimiter ',' csv header;
+\copy results from '/Users/rishabh/Development/DMQL/Project/f1_data/results.csv' delimiter ',' csv header;
+\copy driver_standings from '/Users/rishabh/Development/DMQL/Project/f1_data/driver_standings.csv' delimiter ',' csv header;
+\copy qualifying from '/Users/rishabh/Development/DMQL/Project/f1_data/qualifying.csv' delimiter ',' csv header;
