@@ -1,7 +1,7 @@
 Steps to setup Postgresql database and run website locally -
 
 1. On PGAdmin, use the query tool to open a script and select the "create.sql" file. Click on run. This will create all the required tables.
-2. On PGAdmin, open the PSQL tool in the same way we opened the query tool. This should open a terminal. Now open "load.sql" using a notepad app. Copy the whole script and paste it on the PSQL terminal and hit Enter. This will load all the data.
+2. On PGAdmin, open the PSQL tool in the same way we opened the query tool. This should open a terminal. Now open "load.sql" using a notepad app. Make sure to change the absolute path to the location of the files on your system. Copy the whole script and paste it on the PSQL terminal and hit Enter. This will load all the data.
 3. Next, use the query tool to run "UPDATE.sql" just like we did in step 1. This should normalize the database to the required form.
 
 Alternatively, instead of running above three steps. You can restore "f1_database_backup".
