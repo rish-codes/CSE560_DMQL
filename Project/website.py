@@ -3,6 +3,7 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 
+# Change parameters according to your newly created DB
 def connect_to_db():
     conn = psycopg2.connect(
         dbname="F1_DATA",
